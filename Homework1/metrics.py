@@ -93,6 +93,6 @@ def mae(y_pred, y_true):
     mae - mean absolut error
     """
 
-    mae = np.mean(np.abs((y_pred - y_true))
+    mae = np.mean(np.abs((y_pred - y_true)))
     return mae
     
